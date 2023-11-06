@@ -1,5 +1,5 @@
 {% set name = "cpp-argparse" %}
-{% set version = "2.9" %}
+{% set version = "3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/p-ranav/argparse/archive/v{{ version }}.tar.gz
-  sha256: cd563293580b9dc592254df35b49cf8a19b4870ff5f611c7584cf967d9e6031e
+  sha256: ba7b465759bb01069d57302855eaf4d1f7d677f21ad7b0b00b92939645c30f47
 
 build:
   number: 0
